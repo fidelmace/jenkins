@@ -35,12 +35,12 @@ pipeline{
                 echo 'ejecutando stage 3'
             }   
         }
-          stage('stage 4'){
-            steps{
-                echo 'ejecuntado un email'
-                mail bcc: '', body: 'Hola desde mi pipeline', cc: '', from: '', replyTo: '', subject: 'Hola', to: 'diego.torres@tecgurus.net'
-            }
-        }
+//          stage('stage 4'){
+//            steps{
+//                echo 'ejecuntado un email'
+//                mail bcc: '', body: 'Hola desde mi pipeline', cc: '', from: '', replyTo: '', subject: 'Hola', to: 'diego.torres@tecgurus.net'
+//            }
+//        }
     }
      post{
             //always
