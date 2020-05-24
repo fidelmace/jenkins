@@ -16,6 +16,6 @@ jobs:
     - name: list image
       run: docker images
     - name: running image
-      run: docker run fidelmace/gitactnodeimage:240520
+      run: docker run -d fidelmace/gitactnodeimage:240520
     - name: listing containers
       run: docker ps -a
