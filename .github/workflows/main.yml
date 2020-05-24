@@ -23,4 +23,4 @@ jobs:
         echo 'Docker login'
         docker login -u $DOCKER_USER -p $DOCKER_PASS
         echo 'Sending to hub'
-        docker push fidelmace/gitactnodeimage:240528
+        docker push fidelmace/gitactnodeimage:240520
