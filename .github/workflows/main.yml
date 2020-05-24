@@ -25,5 +25,4 @@ jobs:
         echo 'Sending to hub'
         docker push fidelmace/gitactnodeimage:240520
     - name: pulling from docker hub
-        docker pull cinthyamontalvo/gitactnodeimage:240520
-
+      run: docker pull cinthyamontalvo/gitactnodeimage:240520
