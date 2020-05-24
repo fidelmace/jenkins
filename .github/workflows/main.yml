@@ -24,3 +24,6 @@ jobs:
         docker login -u $DOCKER_USER -p $DOCKER_PASS
         echo 'Sending to hub'
         docker push fidelmace/gitactnodeimage:240520
+    - name: pulling from docker hub
+        docker pull cinthyamontalvo/gitactnodeimage:240520
+
