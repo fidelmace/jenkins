@@ -9,3 +9,5 @@ jobs:
     - uses: actions/checkout@v2
     - name: Run a one-line script
       run: echo Hola cuando hace un push
+    - name: docker
+      run: docker -v
